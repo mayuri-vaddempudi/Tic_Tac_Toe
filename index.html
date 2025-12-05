@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Professional Tic-Tac-Toe</h1>
+    </header>
+
+    <main>
+        <div class="info">
+            <p>Current Turn: <span id="currentPlayer">X</span></p>
+            <p>Score: Player X: <span id="scoreX">0</span> | Player O: <span id="scoreO">0</span></p>
+            <p id="winnerMessage"></p>
+        </div>
+
+        <div id="board" class="board">
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+
+        <button id="restartBtn">Restart Game</button>
+
+        <div id="confetti-container"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Professional Tic-Tac-Toe Game</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
